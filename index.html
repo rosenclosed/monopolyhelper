@@ -16,7 +16,6 @@
     <script src="./global/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./global/styles/main.css">
     <link rel="stylesheet" href="./global/fontawesome-free-5.15.4-web/css/all.min.css">
-    <script src="./global/js/index.js"></script>
 </head>
 
 <body>
@@ -36,11 +35,11 @@
     <main>
         <div class="container text-center align-items-center">
             <p>Are you ready? Press the start Button below to configure your game!</p>
-            <div class="start-button-container">
-                <button class="btn btn-primary btn-lg start-button">
+            <form id="start-button-container" class="start-button-container">
+                <button id="start-button" class="btn btn-primary btn-lg start-button" type="submit">
                     Start...
                 </button>
-            </div>
+            </form>
         </div>
     </main>
 
@@ -56,7 +55,7 @@
     </footer>
 
 
-    <script src="" async defer></script>
+    <script src="./global/js/index.js" async defer></script>
 </body>
 
 </html>
