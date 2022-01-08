@@ -1,7 +1,5 @@
-const btnSubmitContainer = document.querySelector("form");
 const btnSubmit = document.getElementById("start-button");
 
-btnSubmitContainer.addEventListener("submit", (e) => {
-    e.preventDefault();
+btnSubmit.addEventListener("click", () => {
     window.location.href = "./app/";
-})
+});
