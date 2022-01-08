@@ -1,3 +1,7 @@
+.hidden {
+  opacity: 0.1;
+}
+
 .text-red {
   color: red;
 }
@@ -14,8 +18,17 @@
   font-size: small;
 }
 
-main {
+.landingpage-main {
   margin-top: 3em;
   margin-bottom: 3em;
+}
+
+.game-version-img {
+  margin: 0 0 0 0;
+  width: 50%;
+}
+
+.game-version-button {
+  min-height: 24.5em;
 }
 /*# sourceMappingURL=main.css.map */

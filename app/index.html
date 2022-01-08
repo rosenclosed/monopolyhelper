@@ -16,7 +16,7 @@
     <script src="../global/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../global/styles/main.css">
     <link rel="stylesheet" href="../global/fontawesome-free-5.15.4-web/css/all.min.css">
-    <script src="../global/js/app.js"></script>
+    <script src="../global/js/app.js" async defer></script>
 </head>
 
 <body>
@@ -25,14 +25,50 @@
         <![endif]-->
 
     <header class="">
-        <div class="container">
-            <p>Header</p>
+        <div class="container text-center">
+            <h1 id="h1-config" class="">Game Configuration</h1>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <p>Main</p>
+        <div class="container text-center align-items-center">
+            <section id="game-version" class="">
+                <h2>Which version of Monopoly do you own?</h2>
+                <div class="d-grid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button id="monopoly-fc-bayern-3rd-edition" class="btn btn-light btn-outline-secondary game-version-button">
+                                <h4>FC-Bayern Monopoly 3rd/4th Edition</h4><br />
+                                <img class="game-version-img" src="./img/fcb-monopoly-3rd-4th.webp"
+                                    alt="FC-Bayern Monopoly 3rd/4th Edition">
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <button id="miwula-monopoly" class="btn btn-light btn-outline-secondary game-version-button">
+                                <h4>MiWuLa Monopoly</h4><br />
+                                <img class="game-version-img" src="./img/miwula-monopoly.jpg" alt="MiWuLa Monopoly">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="player-count" class="hidden">
+                <h2>How many players are playing?</h2>
+                <div class="btn-group" role="group">
+                    <button id="player-count-1" class="btn btn-dark hidden">1</button>
+                    <button id="player-count-2" class="btn btn-dark">2</button>
+                    <button id="player-count-3" class="btn btn-dark">3</button>
+                    <button id="player-count-4" class="btn btn-dark">4</button>
+                    <button id="player-count-5" class="btn btn-dark">5</button>
+                    <button id="player-count-6" class="btn btn-dark">6</button>
+                    <button id="player-count-7" class="btn btn-dark">7</button>
+                    <button id="player-count-8" class="btn btn-dark">8</button>
+                    <button id="player-count-9" class="btn btn-dark hidden">8</button>
+                </div>
+            </section>
+            <section id="custom-rules" class="hidden">
+                <h2>Choose which custom rules apply to you</h2>
+            </section>
         </div>
     </main>
 
@@ -43,7 +79,6 @@
     </footer>
 
 
-    <script src="" async defer></script>
 </body>
 
 </html>
