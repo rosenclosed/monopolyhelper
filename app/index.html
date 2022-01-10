@@ -26,14 +26,14 @@
 
     <header class="">
         <div class="container text-center">
-            <h1 id="h1-config" class="hidden">Game Configuration</h1>
-            <h1 id="h1-game" class="vh-5">Game</h1>
+            <h1 id="h1-config" class="">Game Configuration</h1>
+            <h1 id="h1-game" class="vh-5 hidden">Game</h1>
         </div>
     </header>
 
     <main>
         <div class="container text-center align-items-center">
-            <section id="game-version" class="hidden">
+            <section id="game-version" class="">
                 <h2>Which version of Monopoly do you own?</h2>
                 <div class="d-grid">
                     <div class="row">
@@ -69,23 +69,25 @@
             </section>
             <section id="player-names" class="hidden">
                 <h2>Type Player Names</h2>
-                <form id="player-name-input-form">
-                    <input id="player-1-name-input" type="text" placeholder="Player 1" class="hidden">
-                    <input id="player-2-name-input" type="text" placeholder="Player 2" class="hidden">
-                    <input id="player-3-name-input" type="text" placeholder="Player 3" class="hidden">
-                    <input id="player-4-name-input" type="text" placeholder="Player 4" class="hidden">
-                    <input id="player-5-name-input" type="text" placeholder="Player 5" class="hidden">
-                    <input id="player-6-name-input" type="text" placeholder="Player 6" class="hidden">
-                    <input id="player-7-name-input" type="text" placeholder="Player 7" class="hidden">
-                    <input id="player-8-name-input" type="text" placeholder="Player 8" class="hidden">
-                    <button id="player-name-input-form-submit" class="btn btn-success" type="submit"><i
-                            class="fas fa-plane"></i> Proceed</button>
-                </form>
+                <div class="">
+                    <form id="player-name-input-form" class="">
+                        <input id="player-1-name-input" type="text" placeholder="Enter name of Player 1" class="width-50-percent form-control hidden">
+                        <input id="player-2-name-input" type="text" placeholder="Enter name of Player 2" class="width-50-percent form-control hidden">
+                        <input id="player-3-name-input" type="text" placeholder="Enter name of Player 3" class="width-50-percent form-control hidden">
+                        <input id="player-4-name-input" type="text" placeholder="Enter name of Player 4" class="width-50-percent form-control hidden">
+                        <input id="player-5-name-input" type="text" placeholder="Enter name of Player 5" class="width-50-percent form-control hidden">
+                        <input id="player-6-name-input" type="text" placeholder="Enter name of Player 6" class="width-50-percent form-control hidden">
+                        <input id="player-7-name-input" type="text" placeholder="Enter name of Player 7" class="width-50-percent form-control hidden">
+                        <input id="player-8-name-input" type="text" placeholder="Enter name of Player 8" class="width-50-percent form-control hidden">
+                        <button id="player-name-input-form-submit" class="btn btn-success" type="submit"><i
+                                class="fas fa-paper-plane"></i> Proceed</button>
+                    </form>
+                </div>
             </section>
-            <section id="custom-rules" class="hidden">
+            <!--<section id="custom-rules" class="hidden">
                 <h2>Choose which custom rules apply to you</h2>
-            </section>
-            <section id="game-container" class="">
+            </section>-->
+            <section id="game-container" class="hidden">
                 <div></div>
             </section>
         </div>

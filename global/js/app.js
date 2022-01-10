@@ -21,11 +21,23 @@ var playerName6 = "";
 var playerName7 = "";
 var playerName8 = "";
 
+
+
+
 //Initialize DOM-Elements
+
+//Initialize Headings
+const headingConfig = document.getElementById("h1-config");
+const headingGame = document.getElementById("h1-game");
 
 //Initialize Sections
 const gameVersionContainer = document.getElementById("game-version");
 const playerCountContainer = document.getElementById("player-count");
+//Initialize Player Name Input Form
+const playerNameInputForm = document.getElementById("player-name-input-form");
+const gameContainer = document.getElementById("game-container");
+const playerNameInputFormContainer = document.getElementById("player-names");
+
 
 //Initialize Game Version Buttons
 const fcbayernButton = document.getElementById("monopoly-fc-bayern-3rd-edition");
@@ -40,9 +52,6 @@ const playerCountButton6 = document.getElementById("player-count-6");
 const playerCountButton7 = document.getElementById("player-count-7");
 const playerCountButton8 = document.getElementById("player-count-8");
 
-//Initialize Player Name Input Form
-//const playerNameInputForm = document.querySelector("form");
-const playerNameInputForm = document.getElementById("player-name-input-form");
 
 //Initialize Player Name Inputs
 const playerNameInput1 = document.getElementById("player-1-name-input");
@@ -80,6 +89,9 @@ playerCountButton2.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 2");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 playerCountButton3.addEventListener("click", () => {
@@ -87,6 +99,9 @@ playerCountButton3.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 3");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 playerCountButton4.addEventListener("click", () => {
@@ -94,6 +109,9 @@ playerCountButton4.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 4");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 playerCountButton5.addEventListener("click", () => {
@@ -101,6 +119,9 @@ playerCountButton5.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 5");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 playerCountButton6.addEventListener("click", () => {
@@ -108,6 +129,9 @@ playerCountButton6.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 6");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 playerCountButton7.addEventListener("click", () => {
@@ -115,6 +139,9 @@ playerCountButton7.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 7");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 playerCountButton8.addEventListener("click", () => {
@@ -122,12 +149,30 @@ playerCountButton8.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 8");
     debugValues();
     hidePlayerNameInputs();
+    if (playerNameInputFormContainer.classList.contains("hidden") == true) {
+        playerNameInputFormContainer.classList.remove("hidden");
+    }
 });
 
 
 playerNameInputForm.addEventListener("submit", (e) => {
     e.preventDefault();
     readPlayerNames();
+    if (playerCountContainer.classList.contains("hidden") == false) {
+        playerCountContainer.classList.add("hidden");
+    }
+    if (playerNameInputFormContainer.classList.contains("hidden") == false) {
+        playerNameInputFormContainer.classList.add("hidden");
+    }
+    if (gameContainer.classList.contains("hidden") == true) {
+        gameContainer.classList.remove("hidden");
+    }
+    if (headingConfig.classList.contains("hidden") == false) {
+        headingConfig.classList.add("hidden");
+    }
+    if (headingGame.classList.contains("hidden") == true) {
+        headingGame.classList.remove("hidden");
+    }
 });
 
 
