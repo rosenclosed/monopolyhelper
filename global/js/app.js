@@ -1,3 +1,16 @@
+//Create variables
+
+const minPlayerCount = 2;
+//gameVersion:
+//0=undefined, 1=FC Bayern, 2=MiWuLa
+var gameVersion = 0;
+//maxPlayerCount;
+//0=undefined, 8=FC-Bayern, 6=MiWuLa
+var maxPlayerCount = 0;
+//playerCount:
+//0=undefined, 2-8=amount of players
+var playerCount = 0;
+
 //Initialize DOM-Elements
 
 //Initialize Sections
@@ -79,21 +92,6 @@ playerCountButton8.addEventListener("click", () => {
     console.log("Following Configurations have been made: \n Player Count: 8");
     debugValues();
 });
-
-
-
-//Create variables
-
-const minPlayerCount = 2;
-//gameVersion:
-//0=undefined, 1=FC Bayern, 2=MiWuLa
-var gameVersion = 0;
-//maxPlayerCount;
-//0=undefined, 8=FC-Bayern, 6=MiWuLa
-var maxPlayerCount = 0;
-//playerCount:
-//0=undefined, 2-8=amount of players
-var playerCount = 0;
 
 
 
