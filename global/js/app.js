@@ -128,7 +128,7 @@ playerCountButton8.addEventListener("click", () => {
 playerNameInputForm.addEventListener("submit", (e) => {
     e.preventDefault();
     readPlayerNames();
-})
+});
 
 
 
@@ -168,240 +168,240 @@ function identifyMaxPlayerCount() {
 function hidePlayerNameInputs() {
     if (playerCount == 0) {
         if (playerNameInput1.classList.contains("hidden") == false) {
-            playerNameInput1.classList.add("hidden")
+            playerNameInput1.classList.add("hidden");
         }
         if (playerNameInput2.classList.contains("hidden") == false) {
-            playerNameInput2.classList.add("hidden")
+            playerNameInput2.classList.add("hidden");
         }
         if (playerNameInput3.classList.contains("hidden") == false) {
-            playerNameInput3.classList.add("hidden")
+            playerNameInput3.classList.add("hidden");
         }
         if (playerNameInput4.classList.contains("hidden") == false) {
-            playerNameInput4.classList.add("hidden")
+            playerNameInput4.classList.add("hidden");
         }
         if (playerNameInput5.classList.contains("hidden") == false) {
-            playerNameInput5.classList.add("hidden")
+            playerNameInput5.classList.add("hidden");
         }
         if (playerNameInput6.classList.contains("hidden") == false) {
-            playerNameInput6.classList.add("hidden")
+            playerNameInput6.classList.add("hidden");
         }
         if (playerNameInput7.classList.contains("hidden") == false) {
-            playerNameInput7.classList.add("hidden")
+            playerNameInput7.classList.add("hidden");
         }
         if (playerNameInput8.classList.contains("hidden") == false) {
-            playerNameInput8.classList.add("hidden")
+            playerNameInput8.classList.add("hidden");
         }
     } else {
 
     }
     if (playerCount == 1) {
         if (playerNameInput1.classList.contains("hidden") == false) {
-            playerNameInput1.classList.add("hidden")
+            playerNameInput1.classList.add("hidden");
         }
         if (playerNameInput2.classList.contains("hidden") == false) {
-            playerNameInput2.classList.add("hidden")
+            playerNameInput2.classList.add("hidden");
         }
         if (playerNameInput3.classList.contains("hidden") == false) {
-            playerNameInput3.classList.add("hidden")
+            playerNameInput3.classList.add("hidden");
         }
         if (playerNameInput4.classList.contains("hidden") == false) {
-            playerNameInput4.classList.add("hidden")
+            playerNameInput4.classList.add("hidden");
         }
         if (playerNameInput5.classList.contains("hidden") == false) {
-            playerNameInput5.classList.add("hidden")
+            playerNameInput5.classList.add("hidden");
         }
         if (playerNameInput6.classList.contains("hidden") == false) {
-            playerNameInput6.classList.add("hidden")
+            playerNameInput6.classList.add("hidden");
         }
         if (playerNameInput7.classList.contains("hidden") == false) {
-            playerNameInput7.classList.add("hidden")
+            playerNameInput7.classList.add("hidden");
         }
         if (playerNameInput8.classList.contains("hidden") == false) {
-            playerNameInput8.classList.add("hidden")
+            playerNameInput8.classList.add("hidden");
         }
     } else {
         if (playerCount == 2) {
             if (playerNameInput1.classList.contains("hidden") != false) {
-                playerNameInput1.classList.remove("hidden")
+                playerNameInput1.classList.remove("hidden");
             }
             if (playerNameInput2.classList.contains("hidden") != false) {
-                playerNameInput2.classList.remove("hidden")
+                playerNameInput2.classList.remove("hidden");
             }
             if (playerNameInput3.classList.contains("hidden") == false) {
-                playerNameInput3.classList.add("hidden")
+                playerNameInput3.classList.add("hidden");
             }
             if (playerNameInput4.classList.contains("hidden") == false) {
-                playerNameInput4.classList.add("hidden")
+                playerNameInput4.classList.add("hidden");
             }
             if (playerNameInput5.classList.contains("hidden") == false) {
-                playerNameInput5.classList.add("hidden")
+                playerNameInput5.classList.add("hidden");
             }
             if (playerNameInput6.classList.contains("hidden") == false) {
-                playerNameInput6.classList.add("hidden")
+                playerNameInput6.classList.add("hidden");
             }
             if (playerNameInput7.classList.contains("hidden") == false) {
-                playerNameInput7.classList.add("hidden")
+                playerNameInput7.classList.add("hidden");
             }
             if (playerNameInput8.classList.contains("hidden") == false) {
-                playerNameInput8.classList.add("hidden")
+                playerNameInput8.classList.add("hidden");
             }
         } else {
 
         }
         if (playerCount == 3) {
             if (playerNameInput1.classList.contains("hidden") != false) {
-                playerNameInput1.classList.remove("hidden")
+                playerNameInput1.classList.remove("hidden");
             }
             if (playerNameInput2.classList.contains("hidden") != false) {
-                playerNameInput2.classList.remove("hidden")
+                playerNameInput2.classList.remove("hidden");
             }
             if (playerNameInput3.classList.contains("hidden") != false) {
-                playerNameInput3.classList.remove("hidden")
+                playerNameInput3.classList.remove("hidden");
             }
             if (playerNameInput4.classList.contains("hidden") == false) {
-                playerNameInput4.classList.add("hidden")
+                playerNameInput4.classList.add("hidden");
             }
             if (playerNameInput5.classList.contains("hidden") == false) {
-                playerNameInput5.classList.add("hidden")
+                playerNameInput5.classList.add("hidden");
             }
             if (playerNameInput6.classList.contains("hidden") == false) {
-                playerNameInput6.classList.add("hidden")
+                playerNameInput6.classList.add("hidden");
             }
             if (playerNameInput7.classList.contains("hidden") == false) {
-                playerNameInput7.classList.add("hidden")
+                playerNameInput7.classList.add("hidden");
             }
             if (playerNameInput8.classList.contains("hidden") == false) {
-                playerNameInput8.classList.add("hidden")
+                playerNameInput8.classList.add("hidden");
             }
         } else {
             if (playerCount == 4) {
                 if (playerNameInput1.classList.contains("hidden") != false) {
-                    playerNameInput1.classList.remove("hidden")
+                    playerNameInput1.classList.remove("hidden");
                 }
                 if (playerNameInput2.classList.contains("hidden") != false) {
-                    playerNameInput2.classList.remove("hidden")
+                    playerNameInput2.classList.remove("hidden");
                 }
                 if (playerNameInput3.classList.contains("hidden") != false) {
-                    playerNameInput3.classList.remove("hidden")
+                    playerNameInput3.classList.remove("hidden");
                 }
                 if (playerNameInput4.classList.contains("hidden") != false) {
-                    playerNameInput4.classList.remove("hidden")
+                    playerNameInput4.classList.remove("hidden");
                 }
                 if (playerNameInput5.classList.contains("hidden") == false) {
-                    playerNameInput5.classList.add("hidden")
+                    playerNameInput5.classList.add("hidden");
                 }
                 if (playerNameInput6.classList.contains("hidden") == false) {
-                    playerNameInput6.classList.add("hidden")
+                    playerNameInput6.classList.add("hidden");
                 }
                 if (playerNameInput7.classList.contains("hidden") == false) {
-                    playerNameInput7.classList.add("hidden")
+                    playerNameInput7.classList.add("hidden");
                 }
                 if (playerNameInput8.classList.contains("hidden") == false) {
-                    playerNameInput8.classList.add("hidden")
+                    playerNameInput8.classList.add("hidden");
                 }
             } else {
                 if (playerCount == 5) {
                     if (playerNameInput1.classList.contains("hidden") != false) {
-                        playerNameInput1.classList.remove("hidden")
+                        playerNameInput1.classList.remove("hidden");
                     }
                     if (playerNameInput2.classList.contains("hidden") != false) {
-                        playerNameInput2.classList.remove("hidden")
+                        playerNameInput2.classList.remove("hidden");
                     }
                     if (playerNameInput3.classList.contains("hidden") != false) {
-                        playerNameInput3.classList.remove("hidden")
+                        playerNameInput3.classList.remove("hidden");
                     }
                     if (playerNameInput4.classList.contains("hidden") != false) {
-                        playerNameInput4.classList.remove("hidden")
+                        playerNameInput4.classList.remove("hidden");
                     }
                     if (playerNameInput5.classList.contains("hidden") != false) {
-                        playerNameInput5.classList.remove("hidden")
+                        playerNameInput5.classList.remove("hidden");
                     }
                     if (playerNameInput6.classList.contains("hidden") == false) {
-                        playerNameInput6.classList.add("hidden")
+                        playerNameInput6.classList.add("hidden");
                     }
                     if (playerNameInput7.classList.contains("hidden") == false) {
-                        playerNameInput7.classList.add("hidden")
+                        playerNameInput7.classList.add("hidden");
                     }
                     if (playerNameInput8.classList.contains("hidden") == false) {
-                        playerNameInput8.classList.add("hidden")
+                        playerNameInput8.classList.add("hidden");
                     }
                 } else {
                     if (playerCount == 6) {
                         if (playerNameInput1.classList.contains("hidden") != false) {
-                            playerNameInput1.classList.remove("hidden")
+                            playerNameInput1.classList.remove("hidden");
                         }
                         if (playerNameInput2.classList.contains("hidden") != false) {
-                            playerNameInput2.classList.remove("hidden")
+                            playerNameInput2.classList.remove("hidden");
                         }
                         if (playerNameInput3.classList.contains("hidden") != false) {
-                            playerNameInput3.classList.remove("hidden")
+                            playerNameInput3.classList.remove("hidden");
                         }
                         if (playerNameInput4.classList.contains("hidden") != false) {
-                            playerNameInput4.classList.remove("hidden")
+                            playerNameInput4.classList.remove("hidden");
                         }
                         if (playerNameInput5.classList.contains("hidden") != false) {
-                            playerNameInput5.classList.remove("hidden")
+                            playerNameInput5.classList.remove("hidden");
                         }
                         if (playerNameInput6.classList.contains("hidden") != false) {
-                            playerNameInput6.classList.remove("hidden")
+                            playerNameInput6.classList.remove("hidden");
                         }
                         if (playerNameInput7.classList.contains("hidden") == false) {
-                            playerNameInput7.classList.add("hidden")
+                            playerNameInput7.classList.add("hidden");
                         }
                         if (playerNameInput8.classList.contains("hidden") == false) {
-                            playerNameInput8.classList.add("hidden")
+                            playerNameInput8.classList.add("hidden");
                         }
                     } else {
                         if (playerCount == 7) {
                             if (playerNameInput1.classList.contains("hidden") != false) {
-                                playerNameInput1.classList.remove("hidden")
+                                playerNameInput1.classList.remove("hidden");
                             }
                             if (playerNameInput2.classList.contains("hidden") != false) {
-                                playerNameInput2.classList.remove("hidden")
+                                playerNameInput2.classList.remove("hidden");
                             }
                             if (playerNameInput3.classList.contains("hidden") != false) {
-                                playerNameInput3.classList.remove("hidden")
+                                playerNameInput3.classList.remove("hidden");
                             }
                             if (playerNameInput4.classList.contains("hidden") != false) {
-                                playerNameInput4.classList.remove("hidden")
+                                playerNameInput4.classList.remove("hidden");
                             }
                             if (playerNameInput5.classList.contains("hidden") != false) {
-                                playerNameInput5.classList.remove("hidden")
+                                playerNameInput5.classList.remove("hidden");
                             }
                             if (playerNameInput6.classList.contains("hidden") != false) {
-                                playerNameInput6.classList.remove("hidden")
+                                playerNameInput6.classList.remove("hidden");
                             }
                             if (playerNameInput7.classList.contains("hidden") != false) {
-                                playerNameInput7.classList.remove("hidden")
+                                playerNameInput7.classList.remove("hidden");
                             }
                             if (playerNameInput8.classList.contains("hidden") == false) {
-                                playerNameInput8.classList.add("hidden")
+                                playerNameInput8.classList.add("hidden");
                             }
                         } else {
                             if (playerCount == 8) {
                                 if (playerNameInput1.classList.contains("hidden") != false) {
-                                    playerNameInput1.classList.remove("hidden")
+                                    playerNameInput1.classList.remove("hidden");
                                 }
                                 if (playerNameInput2.classList.contains("hidden") != false) {
-                                    playerNameInput2.classList.remove("hidden")
+                                    playerNameInput2.classList.remove("hidden");
                                 }
                                 if (playerNameInput3.classList.contains("hidden") != false) {
-                                    playerNameInput3.classList.remove("hidden")
+                                    playerNameInput3.classList.remove("hidden");
                                 }
                                 if (playerNameInput4.classList.contains("hidden") != false) {
-                                    playerNameInput4.classList.remove("hidden")
+                                    playerNameInput4.classList.remove("hidden");
                                 }
                                 if (playerNameInput5.classList.contains("hidden") != false) {
-                                    playerNameInput5.classList.remove("hidden")
+                                    playerNameInput5.classList.remove("hidden");
                                 }
                                 if (playerNameInput6.classList.contains("hidden") != false) {
-                                    playerNameInput6.classList.remove("hidden")
+                                    playerNameInput6.classList.remove("hidden");
                                 }
                                 if (playerNameInput7.classList.contains("hidden") != false) {
-                                    playerNameInput7.classList.remove("hidden")
+                                    playerNameInput7.classList.remove("hidden");
                                 }
                                 if (playerNameInput8.classList.contains("hidden") != false) {
-                                    playerNameInput8.classList.remove("hidden")
+                                    playerNameInput8.classList.remove("hidden");
                                 }
                             }
                         }
@@ -416,49 +416,49 @@ function readPlayerNames() {
     if (playerNameInput1.value != "") {
         playerName1 = playerNameInput1.value;
     } else {
-        playerName1 = "Player 1"
+        playerName1 = "Player 1";
     }
 
     if (playerNameInput2.value != "") {
         playerName2 = playerNameInput2.value;
     } else {
-        playerName2 = "Player 2"
+        playerName2 = "Player 2";
     }
 
     if (playerNameInput3.value != "") {
         playerName3 = playerNameInput3.value;
     } else {
-        playerName3 = "Player 3"
+        playerName3 = "Player 3";
     }
 
     if (playerNameInput4.value != "") {
         playerName4 = playerNameInput4.value;
     } else {
-        playerName4 = "Player 4"
+        playerName4 = "Player 4";
     }
 
     if (playerNameInput5.value != "") {
         playerName5 = playerNameInput5.value;
     } else {
-        playerName5 = "Player 5"
+        playerName5 = "Player 5";
     }
 
     if (playerNameInput6.value != "") {
         playerName6 = playerNameInput6.value;
     } else {
-        playerName6 = "Player 6"
+        playerName6 = "Player 6";
     }
 
     if (playerNameInput7.value != "") {
         playerName7 = playerNameInput7.value;
     } else {
-        playerName7 = "Player 7"
+        playerName7 = "Player 7";
     }
 
     if (playerNameInput8.value != "") {
         playerName8 = playerNameInput8.value;
     } else {
-        playerName8 = "Player 8"
+        playerName8 = "Player 8";
     }
     debugValues();
 }
