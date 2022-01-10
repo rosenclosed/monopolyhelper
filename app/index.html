@@ -26,13 +26,14 @@
 
     <header class="">
         <div class="container text-center">
-            <h1 id="h1-config" class="">Game Configuration</h1>
+            <h1 id="h1-config" class="hidden">Game Configuration</h1>
+            <h1 id="h1-game" class="vh-5">Game</h1>
         </div>
     </header>
 
     <main>
         <div class="container text-center align-items-center">
-            <section id="game-version" class="">
+            <section id="game-version" class="hidden">
                 <h2>Which version of Monopoly do you own?</h2>
                 <div class="d-grid">
                     <div class="row">
@@ -66,15 +67,20 @@
                     <button id="player-count-9" class="btn btn-dark hidden">8</button>
                 </div>
             </section>
-            <section id="custom-rules" class="hidden">
-                <h2>Choose which custom rules apply to you</h2>
+            <section id="game-container" class="">
+                <div></div>
             </section>
         </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>Footer</p>
+    <footer class="no-margin no-padding vh-6">
+        <div class="container text-center">
+            <div class="monopoly-copyright-notice no-margin no-padding">
+                <p>
+                    Monopoly, the Monopoly Logo, the Monopoly Board Design, Mr. Monopoly, the Mr. Monopoly Design are Trademarks owned by Hasbro in the US, Europe and other parts of the world <br /> This project is not in any way affiliated with Hasbro
+                    or their respective Partners. This is a purely fan-created third-party app to optimize the Monopoly playing experience.
+                </p>
+            </div>
         </div>
     </footer>
 
