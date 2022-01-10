@@ -1,6 +1,13 @@
+body {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
 .hidden {
-    //display: none;
-    opacity: 0.1;
+    display: none;
+    //opacity: 0.1;
 }
 
 .text-red {
@@ -31,4 +38,36 @@
 
 .game-version-button {
     min-height: 24.5em;
+}
+
+.vh-5 {
+    height: 5vh;
+    overflow: hidden;
+}
+
+.vh-6 {
+    height: 6vh;
+    overflow: hidden;
+}
+
+.no-margin {
+    margin: 0 0 0 0;
+}
+
+.no-padding {
+    padding: 0 0 0 0;
+}
+
+#game-container {
+    height: 88vh;
+}
+
+#h1-game {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.container:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
 }
